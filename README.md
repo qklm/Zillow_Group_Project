@@ -1,7 +1,7 @@
 # Zillow_Group_Project
 
 ## Overview of the housing market analysis 
-* The purpose of this analysis is to help create informative and helpful visualizations of current and past housing market data aquired from Zillow's database and api, as well as to compare how close initial listing prices are to actual ending sale price. 
+* The purpose of this analysis is to help create informative and helpful visualizations of current and past housing market data acquired from Zillow's database and api, as well as to compare how close initial listing prices are to actual ending sale price. 
 
 
 ## Purpose for the topic chosen 
@@ -11,12 +11,12 @@
 * The data being utilized was pulled from Zillow Housing Data sets. 
 
 
-## Technoligies to be utilized 
-* In this analysis the methods and technoligies being used are Jupyter Notebook, Python, Postgresql, and Tabluea.  
+## Technologies to be utilized 
+* In this analysis the methods and technologies being used are Jupyter Notebook, Python, PostgreSQL, and Tableau.  
 
 
 ## Communication protocols 
-* All four team members communicate primarily using slack, additionally team members are all present in biannual zoom meetings to go over github pull requests and branch management. 
+* All four team members communicate primarily using slack, additionally team members are all present in biannual zoom meetings to go over GitHub pull requests and branch management. 
 
 
 ## Questions to be answered 
