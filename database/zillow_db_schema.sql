@@ -2,34 +2,25 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "List" (
+CREATE TABLE "list" (
     "region_date" varchar   NOT NULL,
     "region_id" varchar   NOT NULL,
     "size_rank" int   NOT NULL,
     "region_name" varchar   NOT NULL,
     "region_type" varchar   NOT NULL,
     "state_name" varchar,
-    "date" date   NOT NULL,
-    "price" float,
-    CONSTRAINT "pk_List" PRIMARY KEY (
-        "region_date"
-     )
+    "date" varchar   NOT NULL,
+    "price" float
 );
 
-CREATE TABLE "Sale" (
+CREATE TABLE "sale" (
     "region_date" varchar   NOT NULL,
     "region_id" varchar   NOT NULL,
     "size_rank" int   NOT NULL,
     "region_name" varchar   NOT NULL,
     "region_type" varchar   NOT NULL,
     "state_name" varchar,
-    "date" date   NOT NULL,
-    "price" float,
-    CONSTRAINT "pk_Sale" PRIMARY KEY (
-        "region_date"
-     )
+    "date" varchar   NOT NULL,
+    "price" float
 );
-
-ALTER TABLE "List" ADD CONSTRAINT "fk_List_region_date" FOREIGN KEY("region_date")
-REFERENCES "Sale" ("region_date");
 
