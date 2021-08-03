@@ -23,4 +23,8 @@
 * The purpose of this analysis is to see the relationship and correlation between listing prices and sale prices of homes using the most current data available. Are listing prices realistic numbers to start with as a seller, compared to what the actual home's value is upon final sale? 
 
 
-
+## Roles
+* David - Triangle
+* Al - Circle
+* Ethan - X
+* John - Square
