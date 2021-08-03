@@ -140,7 +140,7 @@ A potential employer may not be familiar with the dataset you've been working wi
 It will also need to include interaction—something more sophisticated than a tooltip. A map with multiple layers, for example, is a powerful tool. Or an interactive chart that can be filtered or has adjustable zoom can lend great strength to analysis. This is something to keep in mind and collaborate on with whomever is in the circle role during this segment.
 
 # 3rd Segment
-## Square Role (20.4.4)
+## Square Role (20.3.4)
 The theme of the week is to plug everything in, which also means tying up loose ends in GitHub. While working through the different GitHub components, refer to the following:
 
 Finish up peer reviews and check code.
@@ -176,7 +176,7 @@ Make sure you're able to run all of the code before creating a requirements.txt.
 
 When it's ready to be merged, open a PR and request a review from a teammate. When you think you've cleaned up the repo and it's ready to be shared with other teams or your instructor and TAs, go ahead and ask for another teammate to take a look as well. Two sets of eyes are more likely to catch anything that may have slipped through the cracks, so think of it as an unofficial peer review!
 
-## Circle Role (20.4.6)
+## Circle Role (20.3.6)
 During this segment, the team's dashboard becomes prominent. If you already have a storyboard, great! Start converting it from Google Slides to the actual interactive dashboard that a team member will demonstrate during the final presentation.
 
 If you haven't yet created a storyboard, sketch one out using Google Slides. Remember that the final dashboard should require a level of interactivity, such as layering maps or filtering data. Visualizations also need to be included—you're telling a story and good visuals are extremely powerful. Consider the maps, charts, or images created during analysis—which of these best lends strength to the story? Which ones have the most clarity?
@@ -185,7 +185,7 @@ The goal for this dashboard is to have something to add to your portfolio when a
 
 So, once a storyboard is ready to be converted into a dashboard, use tools such as JavaScript, Tableau, or another visualization library. Make sure the design is clean, concise, and easy to follow. Data from the machine learning aspect will also need to be incorporated as well. This is the time to let your creativity flow. If you're not sure about something, or feel frustrated, talk it out with your team. Get everyone's feedback as you work through it—even though you're creating the "face" of the project, everyone is still involved.
 
-## Triangle Role (20.4.5)
+## Triangle Role (20.3.5)
 Every aspect of the project is important, and the presentation is equally so because it's used to help capture the work and effort you all have been contributing over the last segments. Likely, this presentation will be the first time others will hear about and see what you've been working on. Presentations are a primary way you'll be sharing your work with your peers on the job, so it is critical professional practice.
 
 With this in mind, a presentation will need to be created to share with your class, TAs, and instructor. Developed in Google Slides, this presentation will be used to tell your data story. When creating the presentation, remember that many people will be unfamiliar with the topic.
@@ -204,7 +204,7 @@ During the final segment, each team will present the project and demonstrate the
 
 Additionally, each team member will need to take part in the presentation and demonstration. It's a team effort, after all! So once the draft is complete, share it with your team for their feedback. Make sure everyone is aware of the section they'll present. Practice will come into play a bit more during the fourth segment, but figuring out who will present what during this segment will help with the final planning.
 
-## X Role (20.4.7)
+## X Role (20.3.7)
 The team member in the X role will be the "Tester of All Things." This nifty title includes completing a final round of code testing. Make sure everything runs without errors and is working as intended. Test the database integration, too. Test the dashboard as it's built. Try to break things! Find the weaknesses and loopholes. If anything, document it all and add it to a presentation section covering what your team could improve on.
 
 Since you'll already be elbows deep in all aspects of the project, this is a fantastic opportunity to perform quality assurance. Is the code clean and readable? Does it adhere to coding standards? How about typos? How do the various markdown documents and code comments look?
