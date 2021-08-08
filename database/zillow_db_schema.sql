@@ -24,3 +24,11 @@ CREATE TABLE "sale" (
     "price" float
 );
 
+CREATE TABLE "census" (
+    "city" varchar   NOT NULL,
+    "state" varchar   NOT NULL,
+    "sum_level" varchar   NOT NULL,
+    "date" varchar   NOT NULL,
+    "population" float   NOT NULL
+);
+
