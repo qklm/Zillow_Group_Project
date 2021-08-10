@@ -7,6 +7,7 @@
 ## Purpose for the topic chosen 
 * The purpose of this analysis was to apply data analysis tools and techniques to try and better understand the correlation between the listing price vs the actual sale price of homes in the current market. 
 
+
 ## Description of the Source data 
 * The data being utilized was pulled from Zillow Housing Data sets. 
 
@@ -28,3 +29,15 @@
 * Al - Circle
 * Ethan - X
 * John - Square
+
+## Technologies Used
+PostGres
+AWS
+Tableau
+
+## References
+https://www.zillow.com/research/data/ 
+https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html#tables
+
+## Slides
+https://docs.google.com/presentation/d/1On8H-IbvfuG-GGxrrn4uJLDcsZA6EVINxqNY2ZolDDs/edit#slide=id.gc6f9e470d_0_24
