@@ -1,4 +1,4 @@
-date,size_rank,region_name,list price,sale price,list/sale %,list/sale actual
+date,size_rank,region_name,list_price,sale_price,list_divided_by_sale,list_minus_sale
 2017-11-04,17,"San Diego, CA",728005.0,541438.0,74.37284084587331,186567.0
 2017-11-04,11,"San Francisco, CA",867930.0,781063.0,89.99147396679456,86867.0
 2017-11-04,13,"Riverside, CA",388757.0,342999.0,88.22966531792353,45758.0
