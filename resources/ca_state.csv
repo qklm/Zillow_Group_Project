@@ -1,4 +1,4 @@
-date,size_rank,region_name,list price,sale price,list/sale %,list/sale actual
+date,size_rank,region_name,list_price,sale_price,list_divided_by_sale,list_minus_sale
 2017-11-04,36.4,California,614123.7,508281.3,82.76529630756801,105842.39999999997
 2017-11-11,36.4,California,613946.7,514450.0,83.79391891836865,99496.69999999995
 2017-11-18,36.4,California,614898.4,516943.9,84.06980730475149,97954.5
