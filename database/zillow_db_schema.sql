@@ -33,9 +33,12 @@ CREATE TABLE "census" (
 );
 
 CREATE TABLE "zillow_final" (
+    "region_date" varchar   NOT NULL,
     "date" varchar   NOT NULL,
     "size_rank" int   NOT NULL,
     "region_name" varchar   NOT NULL,
+    "latitude" float   NOT NULL,
+    "longitude" float   NOT NULL,
     "list_price" float   NOT NULL,
     "sale_price" float   NOT NULL,
     "list_divided_by_sale" float   NOT NULL,
