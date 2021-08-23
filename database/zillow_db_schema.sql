@@ -25,6 +25,7 @@ CREATE TABLE "sale" (
 );
 
 CREATE TABLE "census" (
+    "region_date" varchar   NOT NULL,
     "city" varchar   NOT NULL,
     "state" varchar   NOT NULL,
     "sum_level" varchar   NOT NULL,
@@ -33,6 +34,7 @@ CREATE TABLE "census" (
 );
 
 CREATE TABLE "income" (
+    "region_date" varchar   NOT NULL,
     "state" varchar   NOT NULL,
     "date" varchar   NOT NULL,
     "income" float   NOT NULL
@@ -50,4 +52,16 @@ CREATE TABLE "zillow_final" (
     "list_divided_by_sale" float   NOT NULL,
     "list_minus_sale" float   NOT NULL
 );
+
+ALTER TABLE "list" ADD CONSTRAINT "fk_list_region_date" FOREIGN KEY("region_date")
+REFERENCES "sale" ("region_date");
+
+ALTER TABLE "sale" ADD CONSTRAINT "fk_sale_region_date" FOREIGN KEY("region_date")
+REFERENCES "census" ("region_date");
+
+ALTER TABLE "census" ADD CONSTRAINT "fk_census_region_date" FOREIGN KEY("region_date")
+REFERENCES "income" ("region_date");
+
+ALTER TABLE "income" ADD CONSTRAINT "fk_income_region_date" FOREIGN KEY("region_date")
+REFERENCES "zillow_final" ("region_date");
 
